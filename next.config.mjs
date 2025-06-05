@@ -1,15 +1,12 @@
-// Minimal safe config
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   experimental: {
-    appDir: true, // Optional in newer versions, but good for clarity
+    appDir: true,
   },
-};
-
-export default nextConfig;
-
-module.exports = {
+  // These are from next-sitemap
   siteUrl: 'https://yourdomain.com',
   generateRobotsTxt: true,
 };
+
+export default nextConfig;
