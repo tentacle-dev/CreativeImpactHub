@@ -8,3 +8,8 @@ const nextConfig = {
 };
 
 export default nextConfig;
+
+module.exports = {
+  siteUrl: 'https://yourdomain.com',
+  generateRobotsTxt: true,
+};
