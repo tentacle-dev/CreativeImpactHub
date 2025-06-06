@@ -44,7 +44,6 @@ export default function HowWeWork() {
             <div
               key={index}
               initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
               viewport={{ once: true }}
               className="mb-12 mx-8 grid grid-cols-9"

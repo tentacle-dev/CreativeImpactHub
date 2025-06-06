@@ -8,6 +8,7 @@ import AboutUs from "@/components/AboutUs"
 import WhyChooseUs from "@/components/ChooseUs"
 import HowWeWork from "@/components/HowWeWork"
 import Social from "@/components/Social"
+import Team from "@/components/Team"
 
 
 export default function Page(){
@@ -20,6 +21,7 @@ export default function Page(){
       <AboutUs />
       <WhyChooseUs />
       <HowWeWork />
+      <Team />
       <Social />
       <Footer />
     </div>
