@@ -27,8 +27,8 @@ export default function Team(){
                 Teams.map((team) => {
                     return (
                         <div className="md:mt-8 text-center flex flex-col md:flex-row justify-between gap-2 px-8 text-left" key={team.id}>
-                            <div className="flex ">
-                                <Image src={team.path} width={150} height={150} className="rounded-2xl self-center" alt={`${team.name}'s photo`} />
+                            <div className="flex justify-center items-center ">
+                                <Image src={team.path} width={15} height={15} className="rounded-2xl self-center w-[150px] lg:w-[300px]" alt={`${team.name}'s photo`} />
                             </div>
                             <div className="text-right mb-8">
                                 <h3 className="text-3xl font-semibold">{team.name}</h3>
