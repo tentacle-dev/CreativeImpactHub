@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Creatve Impact Hub",
+  title: "Creative Impact Hub",
   description: "Empowering your business with top-notch IT solutions and support.",
   verification: {
     google: "SA1HMV360lG5yutX6QP2g5hDoUqIVMS9TZiANDQOl34",
