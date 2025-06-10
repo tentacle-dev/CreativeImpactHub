@@ -17,14 +17,15 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Creatve Impact Hub",
   description: "Empowering your business with top-notch IT solutions and support.",
+  verification: {
+    google: "SA1HMV360lG5yutX6QP2g5hDoUqIVMS9TZiANDQOl34",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <meta name="google-site-verification" content="SA1HMV360lG5yutX6QP2g5hDoUqIVMS9TZiANDQOl34" />
-      </Head>
+      <meta name="google-site-verification" content="SA1HMV360lG5yutX6QP2g5hDoUqIVMS9TZiANDQOl34" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
