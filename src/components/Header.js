@@ -25,7 +25,7 @@ return (
                 <ul className="p-4">
                  {services.map((service) => {
                     return(
-                      <div className='flex py-2 hover:bg-gray-200 rounded-lg' key={service.id}>
+                      <div className='flex py-2 hover:bg-gray-200 hover:text-black rounded-lg' key={service.id}>
                         <p className='px-4'>{service.icon}</p><li className='px-4'>{service.title}</li>
                       </div>
                     )
@@ -49,7 +49,7 @@ return (
                 <ul className="text-lg max-w-xl">
                   {services.map((service) => {
                     return(
-                      <div className='flex py-4 hover:bg-gray-200 rounded-lg'key={service.id}>
+                      <div className='flex py-4 hover:bg-gray-200 hover:text-black rounded-lg'key={service.id}>
                         <p className='px-4'>{service.icon}</p><li className='px-4'>{service.title}</li>
                       </div>
                     )

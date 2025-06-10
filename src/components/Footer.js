@@ -31,7 +31,7 @@ export default function Footer({ title, description, icon }) {
                 </p>
                 <p>
                     <a href="" className=" hover:underline hover:text-white">
-                        Privacy Policy
+                        Team
                     </a>
                 </p>
             </div>
