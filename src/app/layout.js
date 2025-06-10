@@ -14,12 +14,14 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+<meta name="google-site-verification" content="" />
+
 export const metadata = {
   title: "Creative Impact Hub",
   description: "Empowering your business with top-notch IT solutions and support.",
-  verification: {
-    google: "SA1HMV360lG5yutX6QP2g5hDoUqIVMS9TZiANDQOl34",
-  },
+  content: 
+    "Ur4sxnYDao5A-bCZmQf3tN7fh8rUE69COaj-iFv9O78",
+  
 };
 
 export default function RootLayout({ children }) {
