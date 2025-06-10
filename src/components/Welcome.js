@@ -18,6 +18,7 @@ export default function Welcome() {
             width={500}
             height={400}
             priority
+            layout="responsive"
             sizes="(max-width: 768px) 100vw, 50vw"
             className="rounded-xl shadow-xl object-cover w-full max-w-md"
           />
