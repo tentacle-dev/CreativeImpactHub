@@ -35,36 +35,40 @@ const steps = [
 export default function HowWeWork() {
   return (
     <section className="bg-black text-white py-20 px-6 lg:px-24 text-center">
-      <div className=" mx-auto text-center">
-        <h2 className="text-3xl md:text-5xl font-extrabold text-center text-[#FE5D26] mb-12">
+      <div className="max-w-6xl mx-auto">
+        <h2 className="text-3xl md:text-5xl font-extrabold text-[#FE5D26] mb-12">
           🌟 How We Work
         </h2>
-        <div className="mx-16 border-l-4 border-dashed border-[#FE5D26] text-center lg:flex lg:mx-auto">
+
+        <div className="border-l-4 border-dashed border-[#FE5D26] pl-6 lg:pl-12 space-y-12">
           {steps.map((step, index) => (
             <div
               key={index}
-              initial={{ opacity: 0, x: -50 }}
-              transition={{ duration: 0.5, delay: index * 0.2 }}
-              viewport={{ once: true }}
-              className="mb-12 mx-8 grid grid-cols-9"
+              className="flex items-start gap-4"
+              // If using Framer Motion, uncomment and wrap in <motion.div>
+              // initial={{ opacity: 0, x: -50 }}
+              // animate={{ opacity: 1, x: 0 }}
+              // transition={{ duration: 0.5, delay: index * 0.2 }}
             >
               <div
-                className={`w-4 h-6 lg:w-10 lg:h-16 rounded-full bg-gradient-to-br ${step.color} flex items-center justify-center shadow-lg`}
+                className={`min-w-[40px] h-10 lg:w-10 lg:h-16 rounded-full bg-gradient-to-br ${step.color} flex items-center justify-center shadow-lg`}
               >
                 {step.icon}
               </div>
-                <div className="col-span-8 text-left">
-                    <h3 className="pl-3 text-sm lg:text-2xl font-semibold text-white mb-2">
-                    {step.title}
-                    </h3>
-                    <p className=" text-xs lg:text-lg pl-4 text-white leading-relaxed ">
-                        {step.description}
-                    </p>
-                </div>
+
+              <div className="text-left">
+                <h3 className="text-sm lg:text-2xl font-semibold mb-2">
+                  {step.title}
+                </h3>
+                <p className="text-xs lg:text-lg leading-relaxed text-white">
+                  {step.description}
+                </p>
+              </div>
             </div>
           ))}
         </div>
       </div>
     </section>
+
   );
 }

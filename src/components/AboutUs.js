@@ -1,6 +1,6 @@
 export default function AboutUs() {
   return (
-    <section className="bg-[#FE5D26] py-12 px-4 lg:px-24 shadow-lg" id="about-us">
+    <section className="bg-[#FE5D26]   shadow-lg py-16 px-6 md:px-12 lg:px-24" id="about-us">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl md:text-5xl font-extrabold text-center text-[#fff] mb-12">
           About Us

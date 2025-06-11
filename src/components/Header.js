@@ -32,7 +32,7 @@ return (
                   })}
                 </ul>
               </li>
-              <li className='py-4'><a>Contact Us</a></li>
+              <li className='py-4'><a href='#contact'>Contact Us</a></li>
             </ul>
           </div>
           <a className={`btn btn-ghost text-xl text-[#FE5D26] lead ${lobster.className}`}>
