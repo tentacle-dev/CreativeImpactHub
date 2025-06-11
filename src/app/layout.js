@@ -14,11 +14,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-<meta name="google-site-verification" content="" />
 
 export const metadata = {
   title: "Creative Impact Hub",
-  description: "Empowering your business with top-notch IT solutions and support.",
+  description: "Creative Impact Hub empowers businesses with tailored IT solutions, seamless connectivity, and expert support. Our experienced team helps you harness the transformative power of technology to confidently grow and navigate your needs.",
   content: 
     "Ur4sxnYDao5A-bCZmQf3tN7fh8rUE69COaj-iFv9O78",
   
