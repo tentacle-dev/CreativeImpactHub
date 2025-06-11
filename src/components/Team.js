@@ -8,13 +8,13 @@ const Teams = [
         description : "Shiroan Pathmanathan is a driven and visionary founder with a passion for creating innovative solutions. With a deep understanding of entrepreneurship and a commitment to making a positive impact, Shiroan leads initiatives that bring ideas to life and drive growth.",
         path : "/avatar1.webp",
     },
-    // {
-    // id: 2,
-    // name: "Thanush Seelan",
-    // title: "Lead Developer",
-    // description: "Thanush Seelan is a talented and innovative developer dedicated to crafting high-quality software solutions. With a keen eye for detail and a strong commitment to excellence, Thanush transforms complex ideas into intuitive digital experiences that empower users",
-    // path: "/avatar1.webp"
-    // }
+    {
+    id: 2,
+    name: "Thanush Seelan",
+    title: "Lead Developer",
+    description: "Thanush Seelan is a talented and innovative developer dedicated to crafting high-quality software solutions. With a keen eye for detail and a strong commitment to excellence, Thanush transforms complex ideas into intuitive digital experiences that empower users",
+    path: "/avatar1.webp"
+    }
 
 ]
 

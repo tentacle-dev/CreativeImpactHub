@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Welcome() {
   return (
-    <section className="pt-12 bg-black text-white">
+    <section className="py-12 bg-black text-white">
       <div className="max-w-6xl mx-auto text-center px-4">
         <h1 className="text-3xl md:text-5xl font-bold leading-tight">
           Welcome to <span className="text-[#FE5D26]">Creative Impact Hub</span>

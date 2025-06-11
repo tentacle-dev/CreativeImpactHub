@@ -9,6 +9,8 @@ import WhyChooseUs from "@/components/ChooseUs"
 import HowWeWork from "@/components/HowWeWork"
 import Social from "@/components/Social"
 import Team from "@/components/Team"
+import Testimonials from "@/components/Testimonials"
+import Clients from "@/components/Clients"
 
 
 export default function Page(){
@@ -22,7 +24,9 @@ export default function Page(){
       <WhyChooseUs />
       <HowWeWork />
       <Team />
-      <Social />
+      <Testimonials />
+      <Clients />
+      {/* <Social /> */}
       <Footer />
     </div>
   ) 
