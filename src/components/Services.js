@@ -5,7 +5,7 @@ export default function ServicesPage() {
   return (
     <section className="px-[10%] py-12  mx-auto lg:h-[90vh] flex items-center bg-white">
       <div>
-        <h2 className="text-3xl md:text-7xl  font-bold mb-8 text-center text-[#FE5D26]">Our Services</h2>
+        <h2 className="text-3xl md:text-5xl font-extrabold text-center text-[#FE5D26] mb-12">Our Services</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-y-4 justify-items-center ">
           {services.map((service) => (
             <ServiceCard

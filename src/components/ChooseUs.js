@@ -27,7 +27,7 @@ export default function WhyChooseUs() {
   return (
     <section className="bg-gradient-to-r from-white to-gray-100 py-16 px-6 md:px-12 lg:px-24">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl sm:text-5xl font-extrabold text-center text-[#FE5D26] mb-12">
+        <h2 className="text-3xl md:text-5xl font-extrabold text-center text-[#FE5D26] mb-12">
           🤝 Why Choose Creative Impact Hub?
         </h2>
         <div className="grid md:grid-cols-2 gap-8">

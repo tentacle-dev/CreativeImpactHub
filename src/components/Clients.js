@@ -1,17 +1,23 @@
+import Image from "next/image";
+
 export default function Clients(){
     return(
-    <section class="py-12 bg-gray-100">
-        <h2 class="text-3xl md:text-7xl  font-bold mb-8 text-center text-[#FE5D26]">Our Clients</h2>
-        <div class="flex flex-wrap justify-center items-center lg:gap-56 gap-8">
-            <img src="/Clients/client1.svg" alt="Client 1 Logo" class="lg:h-36 h-16 object-contain grayscale hover:grayscale-0 transition" />
+    <section className="py-12 bg-gray-100">
+        <h2 className="text-3xl md:text-5xl font-extrabold text-center text-[#FE5D26] mb-12">Our Clients</h2>
+        <div className="flex flex-wrap justify-center items-center lg:gap-24 gap-8">
+            <Image src="/Clients/client1.svg" width={400} height={100} alt="Atlas Networks" className="lg:h-36 h-16 object-contain grayscale hover:grayscale-0 transition" />
 
-            <img src="/Clients/client2.png" alt="Client 2 Logo" class="lg:h-36 h-16 object-contain grayscale hover:grayscale-0 transition" />
+            <Image src="/Clients/client2.png" width={400} height={100} alt="Zetta Serve" className="lg:h-36 h-16 object-contain grayscale hover:grayscale-0 transition" />
 
-            <img src="/Clients/client3.png" alt="Client 3 Logo" class="lg:h-36 h-16 object-contain grayscale hover:grayscale-0 transition" />
+            <Image src="/Clients/client3.png" width={400} height={100} alt="Gazelle Communications" className="lg:h-36 h-16 object-contain grayscale hover:grayscale-0 transition" />
 
-            <img src="/Clients/client4.svg" alt="Client 4 Logo" class="lg:h-36 h-16 object-contain grayscale hover:grayscale-0 transition" />
+            <Image src="/Clients/client4.svg" width={400} height={100} alt="Nemerald" className="lg:h-36 h-16 object-contain grayscale hover:grayscale-0 transition" />
 
-            <img src="/Clients/client5.png" alt="Client 5 Logo" class="lg:h-36 h-16 object-contain grayscale hover:grayscale-0 transition" />
+            <Image src="/Clients/client5.png" width={400} height={100} alt="Netone" className="lg:h-36 h-16 object-contain grayscale hover:grayscale-0 transition" />
+
+            <Image src="/Clients/client6.png" width={400} height={100} alt="Nemerald" className="lg:h-36 h-16 object-contain grayscale hover:grayscale-0 transition" />
+            
+            <Image src="/Clients/client7.webp" width={400} height={100} alt="Nemerald" className="lg:h-36 h-16 object-contain grayscale hover:grayscale-0 transition" />
         </div>
     </section>
     )

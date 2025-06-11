@@ -4,7 +4,7 @@ export default function Welcome() {
   return (
     <section className="py-12 bg-black text-white">
       <div className="max-w-6xl mx-auto text-center px-4">
-        <h1 className="text-3xl md:text-5xl font-bold leading-tight">
+        <h1 className="text-3xl md:text-5xl font-bold leading-light text-center text-[#FE5D26] mb-12">
           Welcome to <span className="text-[#FE5D26]">Creative Impact Hub</span>
           <br /> Your Trusted Tech Support Partner
         </h1>

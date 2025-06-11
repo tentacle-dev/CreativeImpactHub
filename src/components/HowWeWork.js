@@ -36,7 +36,7 @@ export default function HowWeWork() {
   return (
     <section className="bg-black text-white py-20 px-6 lg:px-24 text-center">
       <div className=" mx-auto text-center">
-        <h2 className="text-2xl lg:text-4xl sm:text-5xl font-extrabold mb-16 text-[#FE5D26]">
+        <h2 className="text-3xl md:text-5xl font-extrabold text-center text-[#FE5D26] mb-12">
           🌟 How We Work
         </h2>
         <div className="mx-16 border-l-4 border-dashed border-[#FE5D26] text-center lg:flex lg:mx-auto">
