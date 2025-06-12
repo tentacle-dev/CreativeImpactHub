@@ -3,10 +3,10 @@ import * as motion from "motion/react-client"
 export default function AboutUs() {
   return (
     <motion.section
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, x: 150 }}
+            whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
-    className="bg-[#FE5D26]   shadow-lg py-16 px-6 md:px-12 lg:px-24" id="about-us">
+    className="bg-[#FE5D26]   shadow-lg py-16 px-6 md:px-12 lg:px-24" id="about">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl md:text-5xl font-extrabold text-center text-[#fff] mb-12">
           About Us

@@ -22,11 +22,11 @@ export default function Welcome() {
           <Image
             src="/Welcome.jpg"
             alt="Team of experts at Creative Impact Hub"
-            width={500}
+            width={400}
             height={400}
             priority
             layout="responsive"
-            sizes="(max-width: 768px) 100vw, 50vw"
+            sizes="(max-width: 768px) 80vw, 50vw"
             className="rounded-xl shadow-xl object-cover w-full max-w-md"
           />
 
@@ -42,9 +42,6 @@ export default function Welcome() {
             With a dedicated team and a commitment to excellence, we help you harness the full potential
             of technology, ensuring that your operations run smoothly and efficiently.
           </p>
-          <button className="mt-6 px-6 py-3 bg-[#FE5D26] rounded-md font-semibold text-white hover:bg-[#e3501d] transition duration-300">
-            Learn More
-          </button>
         </div>
       </div>
     </motion.section>

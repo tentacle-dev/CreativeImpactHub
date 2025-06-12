@@ -9,24 +9,24 @@ export default function Footer({ title, description, icon }) {
                 <Image 
                     src="/techsupport.svg"
                     alt="vercel"
-                    width={50}
-                    height={50}
+                    width={100}
+                    height={100}
                     className="svg-icon rounded-xl self-center"
                 />
-                <p className="text-black">
+                <p className="text-black lg:text-2xl">
                     Embark on a journey of technological empowerment with Creative Impact Hub. 
                     We have the expertise to propel you forward.
                 </p>
             </div>
-            <div className="text-sm space-y-1 Contact-Footer">
-                <p className="text-xl text-gray-200">Company</p>
+            <div className="text-sm space-y-1 Contact-Footer lg:text-2xl">
+                <p className="text-xl lg:text-4xl text-gray-200">Company</p>
                 <p>
-                    <a href="" className=" hover:underline hover:text-white">
+                    <a href="#about" className=" hover:underline hover:text-white">
                         About
                     </a>
                 </p>
                 <p>
-                    <a href="" className=" hover:underline hover:text-white">
+                    <a href="#testimonials" className=" hover:underline hover:text-white">
                         Reviews
                     </a>
                 </p>
@@ -36,8 +36,8 @@ export default function Footer({ title, description, icon }) {
                     </a>
                 </p>
             </div>
-            <div className="text-sm space-y-1 Contact-Footer">
-                <p className="text-xl text-gray-200">Help</p>
+            <div className="text-sm space-y-1 lg:text-2xl Contact-Footer">
+                <p className="text-xl lg:text-4xl text-gray-200">Help</p>
                 <p>
                     <a href="" className=" hover:underline hover:text-white">
                         FAQ
@@ -56,8 +56,8 @@ export default function Footer({ title, description, icon }) {
                 
             </div>
             
-            <div className="text-sm space-y-1 Contact-Footer ">
-                <p className="text-xl text-gray-200">Contact Us</p>
+            <div className="text-sm space-y-1 lg:text-2xl Contact-Footer " id="contact">
+                <p className="text-xl lg:text-4xl text-gray-200">Contact Us</p>
                 <p className="hover:text-white">
                     <a href="mailto:support@creativeimpacthub.com" className=" hover:underline hover:text-white">
                     support@creativeimpacthub.com
@@ -73,7 +73,7 @@ export default function Footer({ title, description, icon }) {
 
         </div>
 
-        <div className="text-center text-lg text-white pt-6 pb-3 border-t mt-12">
+        <div className="text-center text-2xl text-white pt-6 pb-3 border-t mt-12">
         &copy; {new Date().getFullYear()} Creative Impact Hub. All rights reserved.
         </div>
     </motion.footer>

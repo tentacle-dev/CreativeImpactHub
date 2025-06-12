@@ -27,10 +27,10 @@ const features = [
 export default function WhyChooseUs() {
   return (
     <motion.section 
-    initial={{ opacity: 0, y: -50 }}
-    whileInView={{ opacity: 1, y: 0 }}
+    initial={{ opacity: 0, x: -150 }}
+    whileInView={{ opacity: 1, x: 0 }}
     transition={{ duration: 0.6, ease: "easeOut" }}
-    className="bg-gradient-to-r from-white to-gray-100 py-16 px-6 md:px-12 lg:px-24">
+    className="bg-zinc-600 py-16 px-6 md:px-12 lg:px-24">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-5xl font-extrabold text-center text-[#FE5D26] mb-12">
           🤝 Why Choose Creative Impact Hub?

@@ -19,11 +19,12 @@ export default function Page(){
       <Header />
       <Hero />
       <Welcome />
-      <Services />
-      <AboutUs />
+       <AboutUs />
       <WhyChooseUs />
+      <Services />
+     
       <HowWeWork />
-      <Team />
+      {/* <Team /> */}
       <Testimonials />
       <Clients />
       {/* <Social /> */}

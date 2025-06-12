@@ -24,7 +24,7 @@ return (
             <ul
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 z-1 mt-3 -ml-2 shadow rounded-r-lg">
-              <li className='py-4'><a href='#about-us'>About Us</a></li>
+              <li className='py-4'><a href='#about'>About Us</a></li>
               <li>
                 <a>Services</a>
                 <ul className="p-4">
@@ -47,7 +47,7 @@ return (
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-            <li><a href='#about-us'>About Us</a></li>
+            <li><a href='#about'>About Us</a></li>
             <li>
               <details>
                 <summary>Services</summary>
@@ -62,11 +62,11 @@ return (
                 </ul>
               </details>
             </li>
-            <li><a>Contact Us</a></li>
+            <li><a href='#contact'>Contact Us</a></li>
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Contact</a>
+          <a href="tel:+14376559990" className="btn">Call us</a>
         </div>
       </motion.div>
 )
