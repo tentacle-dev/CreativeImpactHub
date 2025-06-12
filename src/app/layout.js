@@ -1,5 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "";
 import { Analytics } from "@vercel/analytics/next"
 
 import Head from "next/head";
@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Creative Impact Hub",
-  description: "Creative Impact Hub empowers businesses with tailored IT solutions, seamless connectivity, and expert support. Our experienced team helps you harness the transformative power of technology to confidently grow and navigate your needs.",
+  description: "Creative Impact Hub empowers businesses with tailored IT solutions, seamless connectivity, and expert support. Our experienced team helps you harness the transformative power of technology to confidently grow and navigate your needs. We serve cities across the GTA region",
   content: 
     "Ur4sxnYDao5A-bCZmQf3tN7fh8rUE69COaj-iFv9O78",
   
