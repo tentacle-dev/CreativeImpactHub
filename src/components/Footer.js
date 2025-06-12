@@ -30,11 +30,6 @@ export default function Footer({ title, description, icon }) {
                         Reviews
                     </a>
                 </p>
-                <p>
-                    <a href="" className=" hover:underline hover:text-white">
-                        Team
-                    </a>
-                </p>
             </div>
             <div className="text-sm space-y-1 lg:text-2xl Contact-Footer">
                 <p className="text-xl lg:text-4xl text-gray-200">Help</p>

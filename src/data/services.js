@@ -38,18 +38,12 @@ const services =
 },
 {
   "id": 7,
-  "title": "E-Commerce Solutions",
-  "description": "Robust online store development with secure payment integration and seamless user experience.",
-  "icon": "🛒"
-},
-{
-  "id": 8,
   "title": "Web Application Development",
   "description": "Dynamic web apps tailored to streamline business operations and enhance customer interaction.",
   "icon": "💻"
 },
 {
-  "id": 13,
+  "id": 8,
   "title": "Website Maintenance & Support",
   "description": "Ongoing updates, security patches, and performance monitoring to keep your website running smoothly.",
   "icon": "🔧"
