@@ -1,5 +1,6 @@
 'use client'
 import { MessageCircle, Wrench, Cog, ShieldCheck } from "lucide-react";
+import * as motion from "motion/react-client"
 
 const steps = [
   {
@@ -34,7 +35,11 @@ const steps = [
 
 export default function HowWeWork() {
   return (
-    <section className="bg-black text-white py-20 px-6 lg:px-24 text-center">
+    <motion.section 
+    initial={{ opacity: 0, y: 100 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.6, ease: "easeOut" }}
+    className="bg-black text-white py-20 px-6 lg:px-24 text-center">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-5xl font-extrabold text-[#FE5D26] mb-12">
           🌟 How We Work
@@ -68,7 +73,7 @@ export default function HowWeWork() {
           ))}
         </div>
       </div>
-    </section>
+    </motion.section>
 
   );
 }

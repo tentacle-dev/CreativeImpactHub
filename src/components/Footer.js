@@ -1,8 +1,9 @@
 import Image from "next/image";
+import * as motion from "motion/react-client"
 
 export default function Footer({ title, description, icon }) {
   return (
-    <div className="bg-[#FE5D26] px-12 pt-12">
+    <motion.footer className="bg-[#FE5D26] px-12 pt-12">
         <div className="grid grid-cols-2 md:grid-cols-4 justify-items-center gap-y-4  mx-4 lg:mx-32">
             <div className="hidden lg:inline">
                 <Image 
@@ -75,6 +76,6 @@ export default function Footer({ title, description, icon }) {
         <div className="text-center text-lg text-white pt-6 pb-3 border-t mt-12">
         &copy; {new Date().getFullYear()} Creative Impact Hub. All rights reserved.
         </div>
-    </div>
+    </motion.footer>
   );
 }

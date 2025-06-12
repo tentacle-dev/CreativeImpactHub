@@ -1,8 +1,13 @@
 import testimonials from "@/data/testimonials";
+import * as motion from "motion/react-client"
 
 export default function Testimonials(){
     return (
-        <section className=" mx-auto px-8 md:px-16 py-8 bg-white ">
+        <section
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        className=" mx-auto px-8 md:px-16 py-8 bg-white ">
            <h2 className="text-3xl md:text-5xl font-extrabold text-center text-[#FE5D26] mb-12">Customer Testimonials </h2>
            <div className="flex flex-col w-full md:flex-row flex-wrap gap-6 justify-center  mx-auto ">
 

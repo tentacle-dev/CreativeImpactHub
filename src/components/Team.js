@@ -1,4 +1,5 @@
 import Image from "next/image"
+import * as motion from "motion/react-client"
 
 const Teams = [
     {
@@ -20,7 +21,11 @@ const Teams = [
 
 export default function Team(){
     return(
-        <section className="team px-8 md:px-16 bg-black py-12 ">
+        <motion.section 
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+            className="team px-8 md:px-16 bg-black py-12 ">
            <h2 className="text-3xl md:text-5xl font-extrabold text-center text-[#FE5D26] mb-12">Our Team</h2>
            <div>
             {
@@ -43,6 +48,6 @@ export default function Team(){
 
                 
            </div>
-        </section>
+        </motion.section>
     )
 }

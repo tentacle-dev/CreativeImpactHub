@@ -1,8 +1,15 @@
 import Image from "next/image"
 
+import * as motion from "motion/react-client"
+
 export default function Welcome() {
   return (
-    <section className="py-12 bg-black text-white">
+    <motion.section 
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+    
+    className="py-12 bg-black text-white">
       <div className="max-w-6xl mx-auto text-center px-4">
         <h1 className="text-3xl md:text-5xl font-bold leading-light text-center text-[#fff] mb-12">
           Welcome to <span className="text-[#FE5D26]">Creative Impact Hub</span>
@@ -40,7 +47,7 @@ export default function Welcome() {
           </button>
         </div>
       </div>
-    </section>
+    </motion.section>
 
   )
 }

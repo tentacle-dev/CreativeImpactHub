@@ -1,5 +1,6 @@
 import { Lobster } from 'next/font/google'  
 import services from "@/data/services";
+import * as motion from "motion/react-client"
 
 
 const lobster = Lobster({
@@ -10,7 +11,11 @@ const lobster = Lobster({
 
 export default function Header(){
 return (
-      <div className="navbar md:fixed">
+      <motion.div 
+      initial={{ opacity: 0, y: -10 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+      className="navbar md:fixed">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -63,6 +68,6 @@ return (
         <div className="navbar-end">
           <a className="btn">Contact</a>
         </div>
-      </div>
+      </motion.div>
 )
 }
