@@ -54,8 +54,8 @@ export default function Footer({ title, description, icon }) {
             <div className="text-sm space-y-1 lg:text-2xl Contact-Footer " id="contact">
                 <p className="text-xl lg:text-4xl text-gray-200">Contact Us</p>
                 <p className="hover:text-white">
-                    <a href="mailto:support@creativeimpacthub.com" className=" hover:underline hover:text-white">
-                    support@creativeimpacthub.com
+                    <a href="mailto:support@creativeimpacthub.net" className=" hover:underline hover:text-white">
+                    support@creativeimpacthub.net
                     </a>
                 </p>
                 <p className="hover:text-white">
